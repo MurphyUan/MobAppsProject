@@ -4,23 +4,19 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    private GameObject projectileParent;
+    [SerializeField] private GameObject projectileParent;
 
     [SerializeField] private Projectile projectilePrefab;
 
     [SerializeField] private float projectileSpeed;
 
-    [SerializeField] private float waitTime = 1.0f;
+    [SerializeField] private float watiTime = 1.0f;
 
     [SerializeField] private AudioClip attackSound;
 
     [SerializeField] private bool needsLock;
 
-    public float Delay { get { return waitTime * Time.deltaTime;} }
-
-    private void Awake() {
-        projectileParent = GameObject.Find("Projectiles");
-    }
+    public float Delay { get { return watiTime;} }
 
     public Vector2 lockOnTarget(Vector2 other){
         return (other - new Vector2(transform.position.x, transform.position.y)).normalized;
@@ -34,5 +30,21 @@ public class Attack : MonoBehaviour
         //Play audioclip (attackSound)
 
         projectile.GetComponent<Rigidbody2D>().velocity = direction * projectileSpeed;
+    }
+
+    public IEnumerator loopProjectiles(Vector2 direction, Transform firePoint){
+        while(true){
+            fireProjectile(direction, firePoint);
+            yield return new WaitForSeconds(Delay);
+        }
+    }
+
+    public IEnumerator loopProjectiles(Vector2 direction, Transform[] firePoint){
+        int currentFirePointIndex = 0;
+        while(true){
+            fireProjectile(direction, firePoint[currentFirePointIndex++]);
+            if(currentFirePointIndex >= firePoint.Length) currentFirePointIndex = 0;
+            yield return new WaitForSeconds(Delay);
+        }
     }
 }

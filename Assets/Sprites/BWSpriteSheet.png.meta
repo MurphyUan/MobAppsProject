@@ -1,0 +1,1082 @@
+fileFormatVersion: 2
+guid: 5eea565bf249be249af2ff57d0a2825e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BWSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 968
+        width: 114
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 12, y: 0, z: 11, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491c66db497c5c64c908a8f87e17bd7f
+      internalID: -1680958661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 968
+        width: 116
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 10, y: 0, z: 10, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b88572acae9a63408097b916c26e647
+      internalID: -907849180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 967
+        width: 110
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 10, y: 0, z: 9, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a41d197945c06419e219decdd3f826
+      internalID: -570751165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 967
+        width: 114
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 19, y: 0, z: 11, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a5983663db8e541826d68c2425adcd
+      internalID: -1377614847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 967
+        width: 114
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 13, y: 0, z: 15, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117dd584638801e4ca84d11b589f9a66
+      internalID: -1936012190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 967
+        width: 96
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 6, y: 0, z: 6, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4326771a186414bb8758aa89490c14
+      internalID: 924847681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 862
+        width: 138
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 0, z: 22, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7916382c941dd14e9c5563426b56c03
+      internalID: -1058865058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 864
+        width: 136
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 0, z: 21, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee8a6fa8fb80c949a38b72023f0c171
+      internalID: -1416840010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 863
+        width: 130
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 0, z: 26, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8d7ef2bd530d447ab3db9a80601624
+      internalID: 1919977500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 864
+        width: 130
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 29, y: 0, z: 25, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd945ee93a8ec045b3619f979039747
+      internalID: 2019478221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 790
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074a365efb76d1745957f84f18dc7d04
+      internalID: 432174687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 790
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45fa06d532c0784b8c2b04a87152e05
+      internalID: -1514211069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 790
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcac837f0976a74a82ab089abc00561
+      internalID: 1169462514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 790
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cb63275dde3694d9b718051bfa78bd
+      internalID: -647372559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 792
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a26e6c61d683a40a448b5faa57e85f
+      internalID: 825597001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 791
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16e429c92591f14b8f42b0f0d80782a
+      internalID: 1956937240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 791
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a712aafbed633a499721548958c5db5
+      internalID: 1218334459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 791
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a924158b80aeb434fa50bec059fc0167
+      internalID: 273241484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 790
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca4fbd36d4cdbd48b7a161d31016a8f
+      internalID: 296997702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 787
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff37e66b85f0728499abece07c0c2ec0
+      internalID: 714887289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 790
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4e14323294e9a4ba640f9ba32d20cd
+      internalID: -696701463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 787
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f94c6cf81c8cfd48987ac5b905d4477
+      internalID: -1768239446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 724
+        width: 55
+        height: 59
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302ec7af31b32104099ba27804fc6aa1
+      internalID: 330697572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 722
+        width: 55
+        height: 61
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e230c3c7aa1e8d4898c71cc373ba282
+      internalID: 989646379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 724
+        width: 50
+        height: 59
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce23f01c4e686d4fb8261e503fb03ee
+      internalID: 463835016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 722
+        width: 48
+        height: 61
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0c807e370f46748b98f62b5da170ce
+      internalID: 1830421410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 720
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6e014a25834d64ab06c92080d03250
+      internalID: 325200243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 720
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c752fce851a2eb548acf4e2c9014b56f
+      internalID: 1989340224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 720
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1694cff1e7b1e4841a30b9a4358d4638
+      internalID: 743307661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 719
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbbe8c2f0faabb478e1b878f324c1fe
+      internalID: -1298176199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 626
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 0, z: 18, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ea9c6bac8f5f34ba79eeb19a420264
+      internalID: 1823157847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 623
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 0, z: 20, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fc156ed0ca57947a31fdb46933274e
+      internalID: 1295170748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 627
+        width: 58
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 0, z: 15, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7380ea3b8e20f944f948822b32640532
+      internalID: 1014755675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 624
+        width: 59
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 0, z: 14, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd620f7b937f7946b89fee9958e043f
+      internalID: 7360400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 509
+        width: 73
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd19c2f87af7acc4a8937933b2f8d147
+      internalID: 1180911805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 509
+        width: 70
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121957d2e7aa1434aba1e6d13eb633f5
+      internalID: -1849706550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 509
+        width: 58
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ea999d774588c409d08a69e6ae7a99
+      internalID: -1539587382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 510
+        width: 60
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaf93d0818ffcd42a39790800dfdb48
+      internalID: 1004587561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 366
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8344d79d810412646873d0b96252a730
+      internalID: 261684648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 366
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebe3207a57ddf245b8beb418c1cf3e2
+      internalID: -245269731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 366
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d943e8a4bb50db948a3a455b79a34186
+      internalID: 273406813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BWSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 365
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb4a44b46520a343bcc2b475d8baace
+      internalID: 1421995511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BWSpriteSheet_28: 743307661
+      BWSpriteSheet_3: 1853676156
+      BWSpriteSheet_39: -245269731
+      BWSpriteSheet_41: 1421995511
+      BWSpriteSheet_23: 989646379
+      BWSpriteSheet_2: -1067782892
+      BWSpriteSheet_21: -1768239446
+      BWSpriteSheet_17: 273241484
+      BWSpriteSheet_33: 7360400
+      BWSpriteSheet_14: 825597001
+      BWSpriteSheet_40: 273406813
+      BWSpriteSheet_37: 1004587561
+      BWSpriteSheet_5: -907849180
+      BWSpriteSheet_12: 1169462514
+      BWSpriteSheet_36: -1539587382
+      BWSpriteSheet_10: 432174687
+      BWSpriteSheet_26: 325200243
+      BWSpriteSheet_22: 330697572
+      BWSpriteSheet_27: 1989340224
+      BWSpriteSheet_13: -647372559
+      BWSpriteSheet_4: -1680958661
+      BWSpriteSheet_7: -1416840010
+      BWSpriteSheet_34: 1180911805
+      BWSpriteSheet_15: 1956937240
+      BWSpriteSheet_19: 714887289
+      BWSpriteSheet_6: -1058865058
+      BWSpriteSheet_0: 373419054
+      BWSpriteSheet_32: 1014755675
+      BWSpriteSheet_38: 261684648
+      BWSpriteSheet_30: 1823157847
+      BWSpriteSheet_1: 1982184634
+      BWSpriteSheet_16: 1218334459
+      BWSpriteSheet_25: 1830421410
+      BWSpriteSheet_9: 2019478221
+      BWSpriteSheet_18: 296997702
+      BWSpriteSheet_24: 463835016
+      BWSpriteSheet_11: -1514211069
+      BWSpriteSheet_20: -696701463
+      BWSpriteSheet_29: -1298176199
+      BWSpriteSheet_35: -1849706550
+      BWSpriteSheet_31: 1295170748
+      BWSpriteSheet_8: 1919977500
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

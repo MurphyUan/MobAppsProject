@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float ceilingHeight = 10.0f;
     [SerializeField] private float floorHeight = 10.0f;
 
+    [SerializeField] private Animator PlayerBody;
+    [SerializeField] private Animator PlayerGun;
+
     private Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -37,6 +40,19 @@ public class PlayerMovement : MonoBehaviour
         rb.position = new Vector2(
             Mathf.Clamp(rb.position.x, left, right), 
             Mathf.Clamp(rb.position.y, floorHeight, ceilingHeight));
+
+        ProcessDirection();
+    }
+
+    private void ProcessDirection(){
+        bool isMoving = false;
+        if(rb.velocity.x != 0){
+            transform.localScale = new Vector2(-Mathf.Sign(rb.velocity.x) * Mathf.Abs(transform.localScale.x), transform.localScale.y);
+            isMoving = true;
+        }
+
+        PlayerGun.SetBool("isTurning", isMoving);
+        PlayerBody.SetBool("isTurning", isMoving);
     }
 
     private void MovePlayer(float x, float y){

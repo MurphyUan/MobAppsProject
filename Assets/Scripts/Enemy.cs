@@ -2,61 +2,61 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(Rigidbody2D))]
+
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private AudioClip crashSound = null;
     [SerializeField] private AudioClip hitSound = null;
+    [SerializeField] private Attack attack;
+    [SerializeField] private float movementSpeed = 10.0f;
     [SerializeField] private int scoreValue = 10;
     [SerializeField] private int healthPoints = 1;
 
-    [SerializeField] private Attack[] attacks;
-
-    private Attack selectedAttack;
-
-    public int ScoreValue { get { return scoreValue;} }
-
-    public int HealthPoints { get { return healthPoints;} }
+    public int ScoreValue { get { return scoreValue;} set { scoreValue = value; } }
+    public int HealthPoints { get { return healthPoints;} set { healthPoints = value; } }
 
     public delegate void EnemyKilled(Enemy enemy);
-
     public static EnemyKilled EnemyKilledEvent;
 
     public delegate void PlayerKilled();
-
     public static PlayerKilled PlayerKilledEvent;
 
     private Transform firePoint;
+    private GameObject player;
+    private Rigidbody2D rb;
     
     private void Start() {
-        selectedAttack = attacks[Random.Range(0, attacks.Length)];
+        rb = GetComponent<Rigidbody2D>();
+
+        player = GameObject.Find("Player");
 
         firePoint = GetComponentInChildren<Transform>();
-    }
 
-    private void Update() {
-        // Check if Can Shoot
-
-        // Pick Random Weapon
-
-        // Shoot at Player If Possible
+        if(attack == null)StartCoroutine(collideWithPlayer());
+        else InvokeRepeating("useAttack",attack.Delay, attack.Delay);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         // Enemy is hit by bullet
         var projectile = other.GetComponent<Projectile>();
-        if(projectile && other.tag == "playerProj"){
-            //play sound
-            AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position);
+        if(projectile){
+            Debug.Log("Hit Player Projectile");
 
-            // Decreases Enemy Health and Projectile Health
-            healthPoints -= projectile.Damage;
+            //AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position);
 
-            if(healthPoints > 0)return;
+            // Decrease Enemy Health
+            HealthPoints -= projectile.Damage;
 
-            AudioSource.PlayClipAtPoint(crashSound, Camera.main.transform.position);
+            Destroy(other.gameObject);
 
-            // Spawn Death FX
-            Destroy(gameObject);
+            if(healthPoints <= 0) {
+
+                PublishEnemyKilledEvent();
+
+                // Spawn Death FX
+                Destroy(gameObject);
+            }
         }
 
         if(other.GetComponent<PlayerMovement>()){
@@ -64,6 +64,21 @@ public class Enemy : MonoBehaviour
             PublishPlayerKilledEvent();
 
             Destroy(gameObject);
+        }
+    }
+
+    private void useAttack(){
+        attack.fireProjectile(Vector2.down, firePoint);
+    }
+
+    private IEnumerator collideWithPlayer(){
+        while(true){
+            Vector2 dir = attack.lockOnTarget(new Vector2(player.transform.position.x,player.transform.position.y));
+            rb.velocity = new Vector2(
+                dir.x * movementSpeed,
+                dir.y * movementSpeed
+            );
+            yield return new WaitForSeconds(0.5f);
         }
     }
 
