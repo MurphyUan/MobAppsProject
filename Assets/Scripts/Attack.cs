@@ -8,15 +8,15 @@ public class Attack : MonoBehaviour
 
     [SerializeField] private Projectile projectilePrefab;
 
-    [SerializeField] private float projectileSpeed;
+    [SerializeField] private float projectileSpeed = 5;
 
-    [SerializeField] private float watiTime = 1.0f;
+    [SerializeField] private float waitTime = 1.0f;
 
     [SerializeField] private AudioClip attackSound;
 
     [SerializeField] private bool needsLock;
 
-    public float Delay { get { return watiTime;} }
+    public float Delay { get { return waitTime;} }
 
     public Vector2 lockOnTarget(Vector2 other){
         return (other - new Vector2(transform.position.x, transform.position.y)).normalized;

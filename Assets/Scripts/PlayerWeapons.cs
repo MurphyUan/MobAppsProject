@@ -30,14 +30,14 @@ public class PlayerWeapons : MonoBehaviour
     void Update()
     {
         // Fire Projectiles
-        if(Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetButtonDown("Fire1")){
             
             if(attackCoroutine != null)StopCoroutine(attackCoroutine);
             animator.SetBool("isShooting", true);
             attackCoroutine = StartCoroutine(selectedAttack.loopProjectiles(Vector2.up, firePoints));
         }
 
-        if(Input.GetButtonUp("Fire1") || Input.GetKeyUp(KeyCode.Space)){
+        if(Input.GetButtonUp("Fire1")){
             if(attackCoroutine == null)return;
 
             animator.SetBool("isShooting", false);
@@ -45,10 +45,14 @@ public class PlayerWeapons : MonoBehaviour
         }
 
         // Clear Bullets off screen, check if meter is full
-        if(Input.GetButtonDown("Fire2")){
+        if(Input.GetKeyDown(KeyCode.Space)){
             // if ultimateCharge > 10
 
             // Spawn attack[1] at player location
+        }
+
+        if(Input.GetKeyUp(KeyCode.Space)){
+            
         }
     }
 }

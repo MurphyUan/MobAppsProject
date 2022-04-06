@@ -29,6 +29,8 @@ public class Enemy : MonoBehaviour
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
 
+        rb.velocity = Vector2.down * movementSpeed;
+
         player = GameObject.Find("Player");
 
         firePoint = GetComponentInChildren<Transform>();
